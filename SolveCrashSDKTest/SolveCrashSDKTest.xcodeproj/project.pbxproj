@@ -16,6 +16,7 @@
 		338BB6CA1F54116C00A5B94F /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB6C91F54116C00A5B94F /* KVOViewController.m */; };
 		338BB6CD1F54117E00A5B94F /* NilValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB6CC1F54117E00A5B94F /* NilValueViewController.m */; };
 		338BB6CF1F54175D00A5B94F /* libSolveCrashSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 338BB6CE1F54175D00A5B94F /* libSolveCrashSDK.a */; };
+		338BB6E91F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB6E81F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,9 @@
 		338BB6CB1F54117E00A5B94F /* NilValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NilValueViewController.h; sourceTree = "<group>"; };
 		338BB6CC1F54117E00A5B94F /* NilValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NilValueViewController.m; sourceTree = "<group>"; };
 		338BB6CE1F54175D00A5B94F /* libSolveCrashSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSolveCrashSDK.a; path = ../libSolveCrashSDK.a; sourceTree = "<group>"; };
+		338BB6E61F5514F300A5B94F /* SolveCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolveCrash.h; path = ../SolveCrash.h; sourceTree = "<group>"; };
+		338BB6E71F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doesNotRecognizeSelectorViewController.h; sourceTree = "<group>"; };
+		338BB6E81F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doesNotRecognizeSelectorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,7 @@
 		338BB6A31F5410DE00A5B94F = {
 			isa = PBXGroup;
 			children = (
-				338BB6CE1F54175D00A5B94F /* libSolveCrashSDK.a */,
+				338BB6E51F5514E300A5B94F /* Lib */,
 				338BB6AE1F5410DE00A5B94F /* SolveCrashSDKTest */,
 				338BB6AD1F5410DE00A5B94F /* Products */,
 			);
@@ -81,6 +85,8 @@
 				338BB6C91F54116C00A5B94F /* KVOViewController.m */,
 				338BB6CB1F54117E00A5B94F /* NilValueViewController.h */,
 				338BB6CC1F54117E00A5B94F /* NilValueViewController.m */,
+				338BB6E71F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.h */,
+				338BB6E81F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m */,
 			);
 			path = SolveCrashSDKTest;
 			sourceTree = "<group>";
@@ -91,6 +97,15 @@
 				338BB6B01F5410DE00A5B94F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		338BB6E51F5514E300A5B94F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				338BB6E61F5514F300A5B94F /* SolveCrash.h */,
+				338BB6CE1F54175D00A5B94F /* libSolveCrashSDK.a */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				338BB6B71F5410DE00A5B94F /* ViewController.m in Sources */,
+				338BB6E91F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m in Sources */,
 				338BB6CA1F54116C00A5B94F /* KVOViewController.m in Sources */,
 				338BB6CD1F54117E00A5B94F /* NilValueViewController.m in Sources */,
 				338BB6B41F5410DE00A5B94F /* AppDelegate.m in Sources */,
