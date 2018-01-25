@@ -14,16 +14,20 @@
 
 @implementation SubThreadViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (void)viewDidAppear:(BOOL)animated
+{
+    [NSThread detachNewThreadSelector:@selector(setup) toTarget:self withObject:nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
+- (void)setup
+{
+    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(100, 150, 100, 50)];
+    [self.view addSubview:label];
+    label.text = @"Test";
+    label.textColor = [UIColor whiteColor];
+    
+}
 /*
 #pragma mark - Navigation
 

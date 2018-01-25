@@ -15,8 +15,20 @@
 		338BB6BF1F5410DE00A5B94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338BB6BD1F5410DE00A5B94F /* LaunchScreen.storyboard */; };
 		338BB6CA1F54116C00A5B94F /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB6C91F54116C00A5B94F /* KVOViewController.m */; };
 		338BB6CD1F54117E00A5B94F /* NilValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB6CC1F54117E00A5B94F /* NilValueViewController.m */; };
-		338BB6CF1F54175D00A5B94F /* libSolveCrashSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 338BB6CE1F54175D00A5B94F /* libSolveCrashSDK.a */; };
 		338BB6E91F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB6E81F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m */; };
+		33D68C6320197988003F6E36 /* NSArray+AFCrashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C4B20197988003F6E36 /* NSArray+AFCrashExtension.m */; };
+		33D68C6420197988003F6E36 /* SolveCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C4C20197988003F6E36 /* SolveCrash.m */; };
+		33D68C6520197988003F6E36 /* NSDictionary+AFCrashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C4D20197988003F6E36 /* NSDictionary+AFCrashExtension.m */; };
+		33D68C6620197988003F6E36 /* SolveCrashHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C4F20197988003F6E36 /* SolveCrashHelp.m */; };
+		33D68C6720197988003F6E36 /* SC_CrashMethodProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C5020197988003F6E36 /* SC_CrashMethodProxy.m */; };
+		33D68C6820197988003F6E36 /* NSString+AFCrashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C5220197988003F6E36 /* NSString+AFCrashExtension.m */; };
+		33D68C6920197988003F6E36 /* NSMutableSet+AFCrashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C5420197988003F6E36 /* NSMutableSet+AFCrashExtension.m */; };
+		33D68C6A20197988003F6E36 /* NSMutableAttributedString+AFCrashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C5620197988003F6E36 /* NSMutableAttributedString+AFCrashExtension.m */; };
+		33D68C6B20197988003F6E36 /* NSMutableArray+AFCrashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C5A20197988003F6E36 /* NSMutableArray+AFCrashExtension.m */; };
+		33D68C6C20197988003F6E36 /* UIView+AFCrashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C5E20197988003F6E36 /* UIView+AFCrashExtension.m */; };
+		33D68C6D20197988003F6E36 /* NSObject+AFCrashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C6020197988003F6E36 /* NSObject+AFCrashExtension.m */; };
+		33D68C6E20197988003F6E36 /* NSMutableDictionary+AFCrashExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C6220197988003F6E36 /* NSMutableDictionary+AFCrashExtension.m */; };
+		33D68C7120197A04003F6E36 /* SubThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D68C7020197A04003F6E36 /* SubThreadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +46,34 @@
 		338BB6C91F54116C00A5B94F /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
 		338BB6CB1F54117E00A5B94F /* NilValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NilValueViewController.h; sourceTree = "<group>"; };
 		338BB6CC1F54117E00A5B94F /* NilValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NilValueViewController.m; sourceTree = "<group>"; };
-		338BB6CE1F54175D00A5B94F /* libSolveCrashSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSolveCrashSDK.a; path = ../libSolveCrashSDK.a; sourceTree = "<group>"; };
-		338BB6E61F5514F300A5B94F /* SolveCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolveCrash.h; path = ../SolveCrash.h; sourceTree = "<group>"; };
 		338BB6E71F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doesNotRecognizeSelectorViewController.h; sourceTree = "<group>"; };
 		338BB6E81F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doesNotRecognizeSelectorViewController.m; sourceTree = "<group>"; };
+		33D68C4B20197988003F6E36 /* NSArray+AFCrashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AFCrashExtension.m"; sourceTree = "<group>"; };
+		33D68C4C20197988003F6E36 /* SolveCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolveCrash.m; sourceTree = "<group>"; };
+		33D68C4D20197988003F6E36 /* NSDictionary+AFCrashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+AFCrashExtension.m"; sourceTree = "<group>"; };
+		33D68C4E20197988003F6E36 /* NSMutableArray+AFCrashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AFCrashExtension.h"; sourceTree = "<group>"; };
+		33D68C4F20197988003F6E36 /* SolveCrashHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolveCrashHelp.m; sourceTree = "<group>"; };
+		33D68C5020197988003F6E36 /* SC_CrashMethodProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SC_CrashMethodProxy.m; sourceTree = "<group>"; };
+		33D68C5120197988003F6E36 /* NSMutableDictionary+AFCrashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+AFCrashExtension.h"; sourceTree = "<group>"; };
+		33D68C5220197988003F6E36 /* NSString+AFCrashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AFCrashExtension.m"; sourceTree = "<group>"; };
+		33D68C5320197988003F6E36 /* NSObject+AFCrashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AFCrashExtension.h"; sourceTree = "<group>"; };
+		33D68C5420197988003F6E36 /* NSMutableSet+AFCrashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+AFCrashExtension.m"; sourceTree = "<group>"; };
+		33D68C5520197988003F6E36 /* UIView+AFCrashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AFCrashExtension.h"; sourceTree = "<group>"; };
+		33D68C5620197988003F6E36 /* NSMutableAttributedString+AFCrashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+AFCrashExtension.m"; sourceTree = "<group>"; };
+		33D68C5720197988003F6E36 /* NSDictionary+AFCrashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+AFCrashExtension.h"; sourceTree = "<group>"; };
+		33D68C5820197988003F6E36 /* SolveCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolveCrash.h; sourceTree = "<group>"; };
+		33D68C5920197988003F6E36 /* NSArray+AFCrashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AFCrashExtension.h"; sourceTree = "<group>"; };
+		33D68C5A20197988003F6E36 /* NSMutableArray+AFCrashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AFCrashExtension.m"; sourceTree = "<group>"; };
+		33D68C5B20197988003F6E36 /* SC_CrashMethodProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SC_CrashMethodProxy.h; sourceTree = "<group>"; };
+		33D68C5C20197988003F6E36 /* SolveCrashHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolveCrashHelp.h; sourceTree = "<group>"; };
+		33D68C5D20197988003F6E36 /* NSMutableAttributedString+AFCrashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+AFCrashExtension.h"; sourceTree = "<group>"; };
+		33D68C5E20197988003F6E36 /* UIView+AFCrashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AFCrashExtension.m"; sourceTree = "<group>"; };
+		33D68C5F20197988003F6E36 /* NSMutableSet+AFCrashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+AFCrashExtension.h"; sourceTree = "<group>"; };
+		33D68C6020197988003F6E36 /* NSObject+AFCrashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AFCrashExtension.m"; sourceTree = "<group>"; };
+		33D68C6120197988003F6E36 /* NSString+AFCrashExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AFCrashExtension.h"; sourceTree = "<group>"; };
+		33D68C6220197988003F6E36 /* NSMutableDictionary+AFCrashExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+AFCrashExtension.m"; sourceTree = "<group>"; };
+		33D68C6F20197A04003F6E36 /* SubThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubThreadViewController.h; sourceTree = "<group>"; };
+		33D68C7020197A04003F6E36 /* SubThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubThreadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338BB6CF1F54175D00A5B94F /* libSolveCrashSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +90,7 @@
 		338BB6A31F5410DE00A5B94F = {
 			isa = PBXGroup;
 			children = (
-				338BB6E51F5514E300A5B94F /* Lib */,
+				33D68C4A20197988003F6E36 /* SolveCrashSDK */,
 				338BB6AE1F5410DE00A5B94F /* SolveCrashSDKTest */,
 				338BB6AD1F5410DE00A5B94F /* Products */,
 			);
@@ -87,6 +122,8 @@
 				338BB6CC1F54117E00A5B94F /* NilValueViewController.m */,
 				338BB6E71F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.h */,
 				338BB6E81F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m */,
+				33D68C6F20197A04003F6E36 /* SubThreadViewController.h */,
+				33D68C7020197A04003F6E36 /* SubThreadViewController.m */,
 			);
 			path = SolveCrashSDKTest;
 			sourceTree = "<group>";
@@ -99,13 +136,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		338BB6E51F5514E300A5B94F /* Lib */ = {
+		33D68C4A20197988003F6E36 /* SolveCrashSDK */ = {
 			isa = PBXGroup;
 			children = (
-				338BB6E61F5514F300A5B94F /* SolveCrash.h */,
-				338BB6CE1F54175D00A5B94F /* libSolveCrashSDK.a */,
+				33D68C5C20197988003F6E36 /* SolveCrashHelp.h */,
+				33D68C4F20197988003F6E36 /* SolveCrashHelp.m */,
+				33D68C5820197988003F6E36 /* SolveCrash.h */,
+				33D68C4C20197988003F6E36 /* SolveCrash.m */,
+				33D68C5B20197988003F6E36 /* SC_CrashMethodProxy.h */,
+				33D68C5020197988003F6E36 /* SC_CrashMethodProxy.m */,
+				33D68C5920197988003F6E36 /* NSArray+AFCrashExtension.h */,
+				33D68C4B20197988003F6E36 /* NSArray+AFCrashExtension.m */,
+				33D68C5720197988003F6E36 /* NSDictionary+AFCrashExtension.h */,
+				33D68C4D20197988003F6E36 /* NSDictionary+AFCrashExtension.m */,
+				33D68C4E20197988003F6E36 /* NSMutableArray+AFCrashExtension.h */,
+				33D68C5A20197988003F6E36 /* NSMutableArray+AFCrashExtension.m */,
+				33D68C5120197988003F6E36 /* NSMutableDictionary+AFCrashExtension.h */,
+				33D68C6220197988003F6E36 /* NSMutableDictionary+AFCrashExtension.m */,
+				33D68C6120197988003F6E36 /* NSString+AFCrashExtension.h */,
+				33D68C5220197988003F6E36 /* NSString+AFCrashExtension.m */,
+				33D68C5320197988003F6E36 /* NSObject+AFCrashExtension.h */,
+				33D68C6020197988003F6E36 /* NSObject+AFCrashExtension.m */,
+				33D68C5F20197988003F6E36 /* NSMutableSet+AFCrashExtension.h */,
+				33D68C5420197988003F6E36 /* NSMutableSet+AFCrashExtension.m */,
+				33D68C5D20197988003F6E36 /* NSMutableAttributedString+AFCrashExtension.h */,
+				33D68C5620197988003F6E36 /* NSMutableAttributedString+AFCrashExtension.m */,
+				33D68C5520197988003F6E36 /* UIView+AFCrashExtension.h */,
+				33D68C5E20197988003F6E36 /* UIView+AFCrashExtension.m */,
 			);
-			name = Lib;
+			name = SolveCrashSDK;
+			path = SolveCrashSDKTest/SolveCrashSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +240,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D68C6720197988003F6E36 /* SC_CrashMethodProxy.m in Sources */,
+				33D68C7120197A04003F6E36 /* SubThreadViewController.m in Sources */,
+				33D68C6620197988003F6E36 /* SolveCrashHelp.m in Sources */,
+				33D68C6820197988003F6E36 /* NSString+AFCrashExtension.m in Sources */,
+				33D68C6520197988003F6E36 /* NSDictionary+AFCrashExtension.m in Sources */,
+				33D68C6B20197988003F6E36 /* NSMutableArray+AFCrashExtension.m in Sources */,
 				338BB6B71F5410DE00A5B94F /* ViewController.m in Sources */,
+				33D68C6E20197988003F6E36 /* NSMutableDictionary+AFCrashExtension.m in Sources */,
+				33D68C6420197988003F6E36 /* SolveCrash.m in Sources */,
 				338BB6E91F5515CC00A5B94F /* doesNotRecognizeSelectorViewController.m in Sources */,
 				338BB6CA1F54116C00A5B94F /* KVOViewController.m in Sources */,
+				33D68C6320197988003F6E36 /* NSArray+AFCrashExtension.m in Sources */,
+				33D68C6D20197988003F6E36 /* NSObject+AFCrashExtension.m in Sources */,
+				33D68C6920197988003F6E36 /* NSMutableSet+AFCrashExtension.m in Sources */,
 				338BB6CD1F54117E00A5B94F /* NilValueViewController.m in Sources */,
+				33D68C6A20197988003F6E36 /* NSMutableAttributedString+AFCrashExtension.m in Sources */,
+				33D68C6C20197988003F6E36 /* UIView+AFCrashExtension.m in Sources */,
 				338BB6B41F5410DE00A5B94F /* AppDelegate.m in Sources */,
 				338BB6B11F5410DE00A5B94F /* main.m in Sources */,
 			);
@@ -351,6 +424,7 @@
 				338BB6C51F5410DE00A5B94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
